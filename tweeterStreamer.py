@@ -66,7 +66,7 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
  
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["vivoipl2020", "@KKRiders", "@RCBTweets", "@ChennaiIPL"]
+    hash_tag_list = ["@narendramodi","NAMO","Narendra Modi","Donald Trump","@realDonaldTrump","COVID19","coronavirus"]
     fetched_tweets_filename = "tweets.txt"
 
     twitter_streamer = TwitterStreamer()
